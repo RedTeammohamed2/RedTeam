@@ -200,14 +200,32 @@ h1 {
 
 #youtube {
   color: red;
+  transition-duration:var(--main-duration) ;
+}
+
+#youtube:hover {
+  color: rgb(194, 45, 45);
+  font-size: 40px;
 }
 
 #facebook {
   color: rgb(14, 89, 175);
+  transition-duration:var(--main-duration) ;
+}
+
+#facebook:hover {
+  color: rgb(32, 66, 104);
+  font-size: 40px;
 }
 
 #twitter {
   color: #2196f3;
+  transition-duration:var(--main-duration) ;
+}
+
+#twitter:hover {
+  color: #4e9edf;
+  font-size: 40px;
 }
 
 /* End Contact */
